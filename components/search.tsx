@@ -42,11 +42,11 @@ export const Search = ({
               onClick={handleClear}
               className="w-full sm:w-auto"
             >
-              Clear
+              清除
             </Button>
           ) : (
             <Button type="submit" className="w-full sm:w-auto">
-              Send
+              发送
             </Button>
           )}
         </div>
